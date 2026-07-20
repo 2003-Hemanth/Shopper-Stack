@@ -108,7 +108,7 @@ public class Shopper{
 			  cd.click();
 			  WebElement fr = driver.findElement(By.xpath("//button[text()='Proceed']"));
 			  fr.click();
-			  //driver.quit();
+			   driver.quit();
 			 // driver.close();
 			  
 			 
