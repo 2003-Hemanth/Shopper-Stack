@@ -61,7 +61,7 @@ public class Shopper{
 			 sm.click();
 			 WebElement sp = driver.findElement(By.xpath("//img[@alt='nike shues']"));
 			 sp.click();
-			 //driver.navigate().back();
+			 driver.navigate().back();
 			 
 			/* WebElement ac = driver.findElement(By.id("Add To Cart"));
 			 ac.click();
@@ -109,6 +109,7 @@ public class Shopper{
 			  WebElement fr = driver.findElement(By.xpath("//button[text()='Proceed']"));
 			  fr.click();
 			   driver.quit();
+			   
 			 // driver.close();
 			  
 			 
